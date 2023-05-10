@@ -1,0 +1,92 @@
+.main-app {
+  /* text-align: center; */
+  margin: 5%;
+  margin-top: 2%;
+  padding: 2%;
+  background-color: #e5e7eb;
+  height: 90%;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.connect-wallet-button {
+  background-color: rgb(32, 129, 226);
+  margin: 10px;
+  right: 20%;
+  float: right;
+}
+
+.total-deposit{
+  float: left;
+}
+
+.cap-line1{
+  margin: 2%;
+  clear: both;
+}
+
+.cap-line2{
+  clear: both;
+}
+
+.cap-line3{
+  clear: both;
+}
+
+.deposit-amount-input {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 50%;
+  /* height: 30px; */
+  font-size: 18px;
+  float: left;
+}
+
+.deposit-button {
+  background-color: rgb(32, 129, 226);
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 2%;
+  float: right;
+}
+
+.progress {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.start-time {
+  /* background-color: rgb(32, 129, 226); */
+  /* margin: 10px; */
+  bottom: 5%;
+  float: left;
+}
+
+.end-time {
+  /* background-color: rgb(32, 129, 226); */
+  /* margin: 10px; */
+  bottom: 5%;
+  float: right;
+}
+
+.softcap {
+  margin-left: 10%;
+  bottom: 5%;
+  float: left;
+}
+
+.hardcap {
+  bottom: 5%;
+  float: right;
+}
+
+progress {
+  background-color: #ddd;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4CAF50;
+}
